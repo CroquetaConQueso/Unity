@@ -1,0 +1,32 @@
+# Carpetas de sistema de Unity (¡Esto es lo que pesa GBs!)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Archivos generados por Visual Studio (No sirven para nada en el repo)
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Archivos temporales de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Builds y ejecutables (El APK se entrega aparte o en Releases)
+*.apk
+*.aab
+*.unitypackage
